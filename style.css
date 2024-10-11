@@ -20,6 +20,14 @@ h6 {
     font-weight: 400;
 }
 
+header{
+    padding:25vh;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("img/fondo.png");
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
 /* para ajustar algo que queda lost in translation */
 em,
 cite {
