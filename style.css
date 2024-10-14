@@ -10,7 +10,12 @@
     --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif;
 }
 
-h1,
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    
+}
+
 h2,
 h3,
 h4,
@@ -18,11 +23,12 @@ h5,
 h6 {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
+    color: #D4A017; /* Color amarillo mostaza */
 }
 
-header{
-    padding:25vh;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("img/fondo.png");
+header {
+    padding: 25vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url("img/fondo.png");
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
